@@ -5,9 +5,9 @@
 #DBテーブルカラム詳細一覧
 
 ###購入テーブル(d_purchase)
-| 属性名 | 型 | PK | NN | FX |
+|和名| 属性名 | 型 | PK | NN | FX |
 |:-------|----|---|---|---|
-|オーダーID|bigint(20)|○|○||
+|オーダーID||bigint(20)|○|○||
 ||varchar(50)||○||
 |purchase|deta||○||
 |total_price|int(11)||○||
