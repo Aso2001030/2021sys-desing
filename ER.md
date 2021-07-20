@@ -33,7 +33,18 @@ entity"購入詳細テーブル" as customer<d_purchase_datan>
 +order_id[PK]
 +detal_id[PK]
 --
-customer_code[FK]
-purchase_date
-total_price
-}
+item_code[FK]
+price
+num
+
+entity"商品マスタ" as customer<d_purchase_datan>
+<<T,MASTER_MARK_COLOR>>{
++item_code[PK]
+--
+item_name
+price
+category_id[FK]
+image
+data
+
+
