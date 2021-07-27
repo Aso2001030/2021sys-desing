@@ -4,8 +4,7 @@
 Entity03 }o..o| Entity04
 Entity05 ||--o{ Entity06
 Entity07 |o--|| Entity08
-@enduml
-```
+
 entity"顧客マスタ" as customer<m_customers>
 <<M,MASTER_MARK_COLOR>>{
 +customer_code[PK]
@@ -47,4 +46,5 @@ category_id[FK]
 image
 data
 
-
+@enduml
+```
